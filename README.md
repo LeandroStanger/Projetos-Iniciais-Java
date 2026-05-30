@@ -1,12 +1,10 @@
 # Projetos Iniciais em Java
 
-[![GitHub](https://img.shields.io/badge/Repositório-GitHub-black?style=for-the-badge&logo=github)](https://github.com/LeandroStanger/Projetos-Iniciais-Java)
-
-Repositório com projetos introdutórios desenvolvidos em Java, abordando conceitos fundamentais da linguagem como declaração de variáveis, estruturas de controle e entrada/saída de dados.
+[![GitHub](https://img.shields.io/badge/Reposit%C3%B3rio-GitHub-black?style=for-the-badge&logo=github)](https://github.com/LeandroStanger/Projetos-Iniciais-Java)
 
 ## Descrição
 
-O projeto Projetos Iniciais em Java é um ambiente de aprendizado prático da linguagem Java, organizado em aulas sequenciais. Cada aula contém programas simples que demonstram conceitos progressivos da linguagem. O conteúdo é ideal para iniciantes que desejam consolidar os fundamentos de programação orientada a objetos e sintaxe Java.
+Este repositório contém projetos introdutórios desenvolvidos em Java, organizados em aulas sequenciais. Cada aula apresenta programas simples que demonstram conceitos fundamentais da linguagem, como declaração de variáveis, estruturas de controle e entrada e saída de dados. O conteúdo é ideal para iniciantes que desejam consolidar os fundamentos da programação orientada a objetos e a sintaxe do Java.
 
 ## Tecnologias Utilizadas
 
@@ -21,9 +19,8 @@ O projeto Projetos Iniciais em Java é um ambiente de aprendizado prático da li
 
 - Java Development Kit (JDK) instalado (versão 8 ou superior)
 - Terminal ou prompt de comando
-- Editor de texto (VS Code, IntelliJ IDEA, Eclipse ou qualquer outro)
 
-### Verificação da Instalação do Java
+### Verificação da Instalação
 
 ```bash
 java -version
@@ -38,34 +35,24 @@ javac -version
    cd Projetos-Iniciais-Java
    ```
 
-2. **Navegue até a pasta da Aula1**:
+2. **Navegue até a pasta da aula desejada** (por exemplo, Aula1):
    ```bash
    cd Aula1
    ```
 
 3. **Compile o código-fonte**:
    ```bash
-   javac Aula1.java
+   javac NomeDoArquivo.java
    ```
-   Este comando gera o arquivo `Aula1.class` (bytecode).
 
 4. **Execute o programa**:
    ```bash
-   java Aula1
+   java NomeDoArquivo
    ```
 
-5. **Saída esperada**:
-   ```
-   Leandro
-   ```
+### Execução Direta
 
-### Execução Direta (se o arquivo .class já existir)
-
-Caso o arquivo `Aula1.class` já esteja presente no repositório, você pode executá-lo diretamente sem necessidade de compilação:
-
-```bash
-java Aula1
-```
+Se os arquivos `.class` já estiverem presentes no repositório (pré-compilados), você pode executar o programa diretamente sem a etapa de compilação.
 
 ## Autor
 
