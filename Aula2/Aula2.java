@@ -26,6 +26,7 @@ public class Aula2 {
         nome = esseScanner.nextLine();
         System.out.println("Idade: ");
         idade = esseScanner.nextInt();
+        esseScanner.nextLine();
         System.out.println("Contato: ");
         contato = esseScanner.nextLine();
         System.out.println("Data de nacimento: ");
